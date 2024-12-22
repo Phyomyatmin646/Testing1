@@ -3,7 +3,7 @@
     margin: 0;
 }
 body{
-    background-color: rgb(186, 11, 249);
+    background-color: rgb(11, 249, 74);
 }
 /* Header Style Start */
 .container{
@@ -105,7 +105,7 @@ footer p{
     margin-top: 25px;
     margin-left: 210px;
     overflow: scroll;
-
+    
 }
 #a1{
     color: chartreuse;
@@ -119,22 +119,22 @@ footer p{
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    margin-left: 508px;
+    margin-left: 108px;
     margin-top: 20px;
 }
 .b3{
     background-color: chartreuse;
-    width: 80%;
-    height: 75%;
+    width: 300px;
+    height: 96%;
     border-radius: 12%;
     margin: auto;
-    margin-top: 3px;
+    margin-top: 4px;
 }
 #c3{
     font-size: 20px;
     font-weight: bold;
     width: 90%;
-    height:50px;
+    height:200px;
     margin-left: 8%;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -155,9 +155,14 @@ footer p{
 }
 #card{
     background-color: rgb(44, 32, 114);
-    height: 450px;
+    height: 500px;
 
 }
 /* https://github.com/MgZayarNaing */
 
 /* card end */
+.a1{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 10px;
+}
